@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	width: 950px;
+	margin:60px auto;
+}
+
+section {
+    display:block;
+	border:2px solid #ffffff00;
+	margin: 120px 0px 0px;
+	padding: 20px;
+	color: azure;
+	font-family: serif;
+}
+
+header {
+	font-family: serif;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 140px;
+	background: rgba(0, 0, 0, .8);
+}
+
+header .wrap {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 69em;
+}
+
+header h1, header .menu a {
+	line-height: 140px;
+}
+
+header h1 {
+	float: left;
+	margin: 0;
+	color: pink;
+	font-size: 72px;
+	text-transform: uppercase;
+}
+
+header .menu {
+	float: right;
+}
+
+a {
+	margin: 0 10px;
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration:underline;
+	color: cornflowerblue;
+}
+
+table {
+    text-align:center;
+    border-collapse:collapse;
+	background-color: #f175d6af;
+	font-family: serif;
+}
+
+caption {
+	text-align: center;
+	font-size: 30px;
+	color: black;
+}
+
+/* 「,(カンマ)」で区切って複数のセレクタを指定しています*/
+th,td {
+    border: 2px solid #ac296b;
+    font-size: 10px;
+    padding: 5px;
+	width: 200px;
+}
